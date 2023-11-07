@@ -1,1 +1,109 @@
-@import url('"/img/logo-mercado-liebre.svg"')
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital@1&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+
+}
+
+
+:root{
+    --Amarillo: #EAC926;
+ --Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a; 
+}
+
+
+
+.header{
+    background-color: #EAC926;
+    width: 100%;
+    padding:10px;
+
+}
+
+.header img{
+
+    width: 40%;
+    
+    }
+
+
+.banner img{
+    width:100%;
+    
+
+}
+
+
+.pestanias li a {
+    color:black;
+    font-size: 16px;
+}
+
+.buscprod{
+    margin-left: 1cm;
+}
+
+
+.titulo1{
+font-size: 24px;
+
+}
+
+
+.ofertas{
+    font-size: 16px;
+
+}
+
+.precio{
+font-size: 18px;
+
+}
+
+.compra-cuotas{
+margin-left: 3cm;
+
+}
+
+.burger-menu{
+
+    text-align: center;
+}
+
+
+.burger-menu i{
+    background-color: var(--Celeste);
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer_anuncio{
+    margin:18px
+}
+
+.icons-footer{
+    font-size: 2em;
+    margin-bottom: 10px; 
+}
+
+.articulo_main img{
+    width: 100%;
+}
+
+
