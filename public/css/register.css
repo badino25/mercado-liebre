@@ -28,7 +28,8 @@
     color: var(--color-blanco);
     border: 1px solid var(--color-celeste);
     border-radius: 5px;
-}
+      }
+
 .btn_reset_registro{
     width: 20%;
     height: 40px;
@@ -36,6 +37,10 @@
     color: var(--color-blanco);
     border: 1px solid var(--color-celeste);
     border-radius: 5px;
+}
+.articulo_login_main div{
+display: flex;
+    justify-content:start ;
 }
 
 @media(min-width: 768px){

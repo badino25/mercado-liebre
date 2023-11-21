@@ -14,6 +14,10 @@ app.get("/home", (req, res) => {
 app.get("/login", (req, res) => {
     res.sendFile(path.join(__dirname, '/views/login.html'))
 })
+app.post("/login", (req,res) => {
+    console.log(req.body)
+    res.redirect("/login")
+});
 
 app.get("/register", (req, res) => {
     res.sendFile(path.join(__dirname, '/views/register.html'))

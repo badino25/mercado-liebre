@@ -99,10 +99,23 @@
     .articulo_main{
      margin-bottom: 15px;
      background-color: var(--blanco);
-     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-
+   
+     
 
     }
+    .articulo_main:hover {
+      opacity: 1;
+     transition:0.5s ;
+      .nombreproducto{
+        opacity:1;
+        transition: all 500ms;
+      }}
+      .nombreproducto{
+        opacity: 0;
+        transition: 0.5s;
+      }
+      
+    
     .articulo_main img {
         width: 100%;
         }
@@ -136,8 +149,11 @@
     position: absolute;
      right:20px;
     bottom: 78px;
+    transition: transform 1.5s;
 
-
+    }
+    .camion-articulo:hover{
+ transform: rotate(-360deg);
     }
    .circulo-articulo {
     font-size: 35px;
@@ -149,19 +165,23 @@
    }
     .footer {
     text-align: center;
-    }
-
+     }
     .footer_anuncio {
     margin: 18px;
     }
 
-    .icons-footer {
+    .icono_fot {
     font-size: 2em;
     margin-bottom: 10px;
+    color:var(--Celeste);
+    transition: color 1s;
+
     }
+    .icono_fot:hover{
+color: rgb(84, 88, 92);
 
+}
    
-
 
 
     @media (min-width:768px){
@@ -210,10 +230,30 @@ width:45%;
 
 
 
+
 }
+
 
       }
 
     
+      @media (min-width:1024px){
+      
+   
+        
+        .articulo_main{
+          width:22%;
+          transition: all 500ms;
+          
+          
+          
+          
+          }
 
+        .articulo_main:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100)
+      }
+      
     
+    
+    }
